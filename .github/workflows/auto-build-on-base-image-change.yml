@@ -18,7 +18,7 @@ jobs:
         uses: lucacome/docker-image-update-checker@v1.2.1
         with:
           base-image: library/caddy:latest
-          image: ldprg/caddy # update for your image
+          image: ghcr.io/ldprg/caddy # update for your image
 
       # only execute subsequent steps if an update is actually NEEDED.
       # unfortunately we need to add an if-condition to all steps now
