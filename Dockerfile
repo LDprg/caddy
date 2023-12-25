@@ -2,6 +2,7 @@ FROM caddy:builder AS builder
 
 RUN xcaddy build \
     --with github.com/caddy-dns/cloudflare \
+    --with github.com/RussellLuo/caddy-ext/layer4 \
     --with github.com/mholt/caddy-l4
 
 FROM caddy:latest
