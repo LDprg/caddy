@@ -4,6 +4,7 @@ RUN xcaddy build \
     --with github.com/caddy-dns/cloudflare \
     --with github.com/RussellLuo/caddy-ext/layer4 \
     --with github.com/mholt/caddy-l4
+    --with github.com/mholt/caddy-dynamicdns
 
 FROM caddy:latest
 
