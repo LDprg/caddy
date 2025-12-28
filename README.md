@@ -1,4 +1,5 @@
 # caddy
-[![Docker](https://github.com/LDprg/caddy/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/LDprg/caddy/actions/workflows/docker-publish.yml)
+
+# Moved to https://codeberg.org/LDprg/caddy
 
 custom caddy with cloudflare and layer4
